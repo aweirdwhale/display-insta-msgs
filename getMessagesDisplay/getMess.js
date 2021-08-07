@@ -18,7 +18,7 @@ const board = new five.Board({port: "Com6"});
 
 //Get Instagram Messages
 const Insta = require('@androz2091/insta.js');
-const { username, password } = require('../logins.json');
+const { username, password } = require('../logins.json');//add the file with your logins
 
 //Get Discord Messages
 // const Discord = require('Discord.js');
